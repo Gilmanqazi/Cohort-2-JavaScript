@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width:100%;
+/* background: linear-gradient(135deg, #0A0020, #000000); */
+background: linear-gradient(145deg, #080014, #0A001F, #000000);
+
+
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  height: 300px;
+  width: 600px;
+  background: linear-gradient(135deg, #2A0055, #0F001E);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border-radius: 50px;
+  padding: 10px 20px;
+ 
+}
+
+.outer{
+  height: 60px;
+  width: 100%;
+  margin-top: 40px;
+  background-color: rgba(216, 219, 216, 0.329);
+  border-radius: 10px;
+}
+.inner{
+  height: 100%;
+  width: 0%;
+background: linear-gradient(90deg, #7F00FF, #E100FF)
+;
+border-radius: 10px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.bottom h2{
+  font-size: 30px;
+  font-family: cursive;
+  color: #E100FF ;
+}
+.bottom button{
+  padding: 10px 20px;
+  background-color:#00E0FF ;
+  color: black;
+  border: none;
+  border-radius: 10px
+}
+button:active{
+  scale: 0.8;
+}
+button:hover{
+  background-color: #00A7CC
+  ;
+}
+#btn{
+  background-color: #FF1177
+  ;
+}
+
+.card p{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 1.1rem 2rem;
+  color: #fff;
+}
+p span{
+  font-weight: 700;
+  color: #00E0FF;
+  text-shadow: 0 0 8px #00E0FF;
+
+}
