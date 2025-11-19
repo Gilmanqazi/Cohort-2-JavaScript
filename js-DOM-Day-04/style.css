@@ -87,3 +87,9 @@ p span{
   text-shadow: 0 0 8px #00E0FF;
 
 }
+
+.h4{
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
