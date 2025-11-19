@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width:100%;
+}
+
+body{
+  background-color: #111;
+}
+main{
+  height: 100%;
+  width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+
+}
+
+.card img{
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+div img{
+position: relative;
+ overflow: hidden;
+}
+
+.card h2{
+  text-align: center;
+  font-size: 30px;
+  white-space: nowrap;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #E2E8F0;
+}
+
+.card #love {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0) rotate(-60deg) ;
+  transition: cubic-bezier(.31,.9,.95,.94) 0.3s;
+  font-size: 70px;
+  color: transparent;
+  background-clip: text;
+  background-size: cover;
+  opacity: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTE_1s8RegAhovDGkfC484aNbuzn7t2Rh4G3VTQusutx3pVOkMkbKTEvAx3qrqm5dK6tw&usqp=CAU);
+}
